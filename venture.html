@@ -18,53 +18,56 @@
 <body>
 
 
+<div></div>
 
-	<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Venture</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Rejseagent</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Fly</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Hoteller</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Afbudsrejser</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-							aria-expanded="false">
-							Aktiviteter
-						</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Action</a></li>
-							<li><a class="dropdown-item" href="#">Another action</a></li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li>
+
+
+
+	<div class="d-flex">
+		<div class="w-100 bg-body-tertiary" data-bs-theme="dark">
+			<nav class="navbar nav-pills navbar-expand-lg">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand" href="#">Venture</a>
+					<div class="collapse navbar-collapse justify-content-lg-evenly" id="navbarNavDropdown">
+						<ul class="nav nav-pills nav-lg-fill flex-column flex-lg-row">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Rejseagent</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Fly</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Hoteller</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Afbudsrejser</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Aktiviteter
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="#">Action</a></li>
+									<li><a class="dropdown-item" href="#">Another action</a></li>
+									<li><a class="dropdown-item" href="#">Something else here</a></li>
+								</ul>
+							</li>
 						</ul>
-					</li>
-				</ul>
-			</div>
+					</div>
+				</div>
+			</nav>
 		</div>
-	</nav>
 
-
-
-	<div class="d-flex flex-column mx-auto w-100 h-100">
-
-		<h1 class="position-absolute top-30 start-50 translate-middle-x">Venture</h1>
 
 		<img class="landingphoto w-100 h-100" src="pics/hammock.jpeg" alt="">
 
-
+		<!--Søgebar-->
 		<form class="row gy-2 gx-3 align-items-center position-absolute top-50 start-50 translate-middle">
 			<div class="col-auto">
 				<label class="visually-hidden" for="autoSizingSelect">Preference</label>

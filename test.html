@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Venture</title>
+
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div>
+
+
+
+    </div>
+
+
+    <div class="d-flex">
+
+
+            <nav class="navbar nav-pills navbar-expand-lg fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Venture</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#navbarOffcanvasLg" aria-controls="avbarOffcanvasLg"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                        <ul class="nav nav-pills nav-lg-fill flex-column flex-lg-row justify-content-lg-evenly">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Rejseagent</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Fly</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hoteller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Afbudsrejser</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Aktiviteter
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+
+
+        <img class="landingphoto w-100 h-100" src="pics/hammock.jpeg" alt="">
+
+        <!--Søgebar-->
+        <form class="row gy-2 gx-3 align-items-center position-absolute top-50 start-50 translate-middle">
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                <select class="form-select" id="autoSizingSelect">
+                    <option selected>Fra?</option>
+                    <option value="1">CPH</option>
+                    <option value="2">Billund</option>
+                    <option value="3">Aalborg</option>
+                </select>
+            </div>
+
+
+
+
+
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                <select class="form-select" id="autoSizingSelect">
+                    <option selected>Til?</option>
+                    <option value="1">Asien</option>
+                    <option value="2">Europa</option>
+                    <option value="3">Afrika</option>
+                    <option value="4">Oceanien</option>
+                </select>
+            </div>
+
+            <div class="col-auto">
+                <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInput">Dato1</label>
+                    <input type="date" class="form-control" id="autoSizingInput">
+                </div>
+            </div>
+
+            <div class="col-auto">
+                <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInput">Dato2</label>
+                    <input type="date" class="form-control" id="autoSizingInput">
+                </div>
+            </div>
+
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                <select class="form-select" id="autoSizingSelect">
+                    <option selected>Rejsetype</option>
+                    <option value="1">Eventyrsrejse</option>
+                    <option value="2">Charterferie</option>
+                    <option value="3">Backpackerferie</option>
+                </select>
+            </div>
+
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                <select class="form-select" id="autoSizingSelect">
+                    <option selected>Antal</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                </button>
+            </div>
+
+        </form>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

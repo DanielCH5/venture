@@ -37,5 +37,35 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 }
 
+.rejseagent{
+  order: 1;
+}
+
+.fly{
+  order: 2;
+}
+
+.brand{
+  order: 4;
+  
+}
+
+.hoteller{
+  order:3;
+
+}
+
+.afbudsrejser{
+  order: 5;
+}
+
+.profil{
+  order: 6;
+}
+
+.aktiviteter{
+  order: 7;
+}
+
 
 
