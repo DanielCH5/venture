@@ -4,16 +4,24 @@
 // 2. Include any default variable overrides here
 $link-decoration: none;
 
+
+
+
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+	"farve": $orange,
 );
 
-$position-values: (
+
+
+
+$nav-link-color: #{$orange};
+$nav-pills-link-active-color: #{$orange};
+$position-values:(
   0: 0,
   10: 10%,
   20: 20%,
@@ -23,6 +31,12 @@ $position-values: (
   100: 100%
 );
 
+
+
+
+
+
+
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
@@ -30,8 +44,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // 5. Du kan lave styling her...
 
 
+
 .landingphoto{
-	opacity:0.4;
+	opacity:0.3;
 	z-index: -1;
 	position: absolute;
 
@@ -60,11 +75,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 .profil{
-  order: 6;
+  order: 7;
 }
 
 .aktiviteter{
-  order: 7;
+  order: 6;
 }
 
 
