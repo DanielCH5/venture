@@ -20,11 +20,11 @@ $theme-colors: (
   primary:$orange,
 );
 
-
-
+$offcanvas-bg: #{$dark};
 $nav-link-color: #{$orange};
 $nav-pills-link-active-color: #{$white};
 $nav-pills-link-active-bg: #{$orange};
+$nav-link-hover-color: #{$white};
 $position-values:(
   0: 0,
   10: 10%,
