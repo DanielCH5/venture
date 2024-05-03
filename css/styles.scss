@@ -13,19 +13,24 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $orange,
+  "farve": $orange,
 );
 
 $theme-colors: (
   primary:$orange,
+  secondary:$dark,
+  danger:$danger,
+  success:$success,
+  "blå":$primary,
 );
 
-$offcanvas-bg: #{$dark};
+
+
 $nav-link-color: #{$orange};
 $nav-pills-link-active-color: #{$white};
 $nav-pills-link-active-bg: #{$orange};
 $nav-link-hover-color: #{$white};
-$position-values:(
+$position-values: (
   0: 0,
   10: 10%,
   20: 20%,
@@ -36,7 +41,10 @@ $position-values:(
 );
 
 
-
+$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$orange}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-dark-toggler-border-color:  #{$orange};
+$card-height: 100%;
+$card-bg: $orange;
 
 
 
@@ -49,42 +57,45 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
 
-.landingphoto{
-	opacity:0.3;
-	z-index: -1;
-	position: absolute;
+.landingphoto {
+  opacity: 0.3;
+  z-index: -1;
+  position: absolute;
 
 }
 
-.rejseagent{
+.rejseagent {
   order: 1;
 }
 
-.fly{
+.fly {
   order: 2;
 }
 
-.brand{
+.brand {
   order: 4;
-  
-}
-
-.hoteller{
-  order:3;
 
 }
 
-.afbudsrejser{
+.hoteller {
+  order: 3;
+
+}
+
+.afbudsrejser {
   order: 5;
 }
 
-.profil{
+.profil {
   order: 7;
 }
 
-.aktiviteter{
+.aktiviteter {
   order: 6;
 }
-
-
-
+body{
+  background-color: $gray-900;
+}
+#søgebar{
+  background-color: $orange;
+}
