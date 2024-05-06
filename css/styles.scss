@@ -131,3 +131,26 @@ body {
   display: grid;
   grid-template-columns: 11fr 1fr;
 }
+
+#footer{
+  background-color: $orange;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@include media-breakpoint-up(md) {
+  #footer {
+    grid-template-columns: 4fr 4fr 4fr;
+  }
+}
+
+.row1{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px;
+  
+}
+.row1 a{
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 5px;
+}
