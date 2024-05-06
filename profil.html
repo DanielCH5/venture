@@ -31,7 +31,7 @@
                     aria-labelledby="navbarOffcanvasLgLabel">
                     <ul class="nav nav-pills nav-lg-fill flex-column flex-lg-row justify-content-lg-evenly">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="venture.html">Rejseagent</a>
+                            <a class="nav-link" aria-current="page" href="rejseagent.html">Rejseagent</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="fly.html">Fly</a>
@@ -48,18 +48,17 @@
                                 Aktiviteter
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="aktiviteter.html">Action</a></li>
-                                <li><a class="dropdown-item" href="aktiviteter.html">Another action</a></li>
-                                <li><a class="dropdown-item" href="aktiviteter.html">Something else here</a></li>
+                                <li><a class="dropdown-item" href="aktiviteter.html">Restauranter</a></li>
+                                <li><a class="dropdown-item" href="aktiviteter.html">Oplevelser</a></li>
+                                <li><a class="dropdown-item" href="aktiviteter.html">Tours</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="profil.html">Daniel</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="kurv.html"><svg xmlns="http://www.w3.org/2000/svg"
-                                    width="16" height="16" fill="currentColor" class="bi bi-bag-fill"
-                                    viewBox="0 0 16 16">
+                            <a class="nav-link" href="kurv.html"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
                                     <path
                                         d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z" />
                                 </svg></a>
@@ -87,124 +86,144 @@
 
     <div class="container mt-4">
         <div>
-        <h2>
-            Daniel C. Hansen
-        </h2>
+            <h2>
+                Daniel H.
+            </h2>
         </div>
 
-        
-        <div class="container mt-4">
-            <div>
-                <h2>
-                    Kommende rejser
+
+        <div class="accordion mt-4">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-controls="collapseOne" aria-expanded="false">Kommende
+                        rejser</button>
                 </h2>
+                <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="planlagt-rejse mt-5">
+                            <h3>Planlagt rejse fra CPH til Tokyo, JP</h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-printer-fill" viewBox="0 0 16 16">
+                                <path d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1"/>
+                                <path d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/>
+                              </svg>
+                        </div>
+                        <div class="mt-5">
+                            <h4>Afgang</h4>
+                        </div>
+                        <table class="table mt-4">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Dato</th>
+                                    <th scope="col">Afgang/Tid</th>
+                                    <th scope="col">Ankomst/Tid</th>
+                                    <th scope="col">Flyselskab</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1/6-24</th>
+                                    <td>Copenhagen (CPH) <b>17:15</b></td>
+                                    <td>Dubai <b>02:15</b></td>
+                                    <td>Emirates</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2/6-24</th>
+                                    <td>Dubai <b>04:15</b></td>
+                                    <td>Tokyo <b>15:15</b></td>
+                                    <td>Emirates</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>
+                            <h5>Pris 4750 DKK</h5>
+                        </div>
+                        <div class="mt-5">
+                            <h4>Retur</h4>
+                        </div>
+                        <table class="table mt-4">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Dato</th>
+                                    <th scope="col">Afgang/Tid</th>
+                                    <th scope="col">Ankomst/Tid</th>
+                                    <th scope="col">Flyselskab</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1/7-24</th>
+                                    <td>Tokyo <b>15:15</b></td>
+                                    <td>Dubai <b>04:15</b></td>
+                                    <td>Emirates</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2/7-24</th>
+                                    <td>Dubai <b>02:15</b></td>
+                                    <td>Copenhagen (CPH) <b>17:15</b></td>
+                                    <td>Emirates</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>
+                            <h5>Pris 4750 DKK</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <div class="planlagt-rejse mt-5">
-                <h3>Planlagt rejse fra CPH til Tokyo, JP</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-printer-fill" viewBox="0 0 16 16">
-                    <path d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1"/>
-                    <path d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/>
-                  </svg>
-            </div>
-            <div class="mt-5">
-                <h4>Afgang</h4>
-            </div>
-            <table class="table mt-4">
-                <thead>
-                    <tr>
-                        <th scope="col">Dato</th>
-                        <th scope="col">Afgang/Tid</th>
-                        <th scope="col">Ankomst/Tid</th>
-                        <th scope="col">Flyselskab</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1/6-24</th>
-                        <td>Copenhagen (CPH) <b>17:15</b></td>
-                        <td>Dubai <b>02:15</b></td>
-                        <td>Emirates</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2/6-24</th>
-                        <td>Dubai <b>04:15</b></td>
-                        <td>Tokyo <b>15:15</b></td>
-                        <td>Emirates</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div>
-                <h5>Pris 4750 DKK</h5>
-            </div>
-            <div class="mt-5">
-                <h4>Retur</h4>
-            </div>
-            <table class="table mt-4">
-                <thead>
-                    <tr>
-                        <th scope="col">Dato</th>
-                        <th scope="col">Afgang/Tid</th>
-                        <th scope="col">Ankomst/Tid</th>
-                        <th scope="col">Flyselskab</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1/7-24</th>
-                        <td>Tokyo <b>15:15</b></td>
-                        <td>Dubai <b>04:15</b></td>
-                        <td>Emirates</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2/7-24</th>
-                        <td>Dubai <b>02:15</b></td>
-                        <td>Copenhagen (CPH) <b>17:15</b></td>
-                        <td>Emirates</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div>
-                <h5>Pris 4750 DKK</h5>
-            </div>
-            
-            
         </div>
-        <div class="mt-5">
-            <h3>Tidligere ordrer</h3>
+        <div class="accordion mt-4">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-controls="collapseTwo" aria-expanded="false">Tidligere ordrer</button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    
+                    
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Dato</th>
+                                    <th scope="col">Destination</th>
+                                    <th scope="col">By</th>
+                                    <th scope="col">Pris</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1/6-23</th>
+                                    <td>Spanien</td>
+                                    <td>Barcelona</td>
+                                    <td>3575 DKK</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1/6-22</th>
+                                    <td>Japan</td>
+                                    <td>Tokyo</td>
+                                    <td>9500 DKK</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1/6-21</th>
+                                    <td>USA</td>
+                                    <td>New York</td>
+                                    <td>7500 DKK</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+
         
 
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Dato</th>
-                    <th scope="col">Destination</th>
-                    <th scope="col">By</th>
-                    <th scope="col">Pris</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1/6-23</th>
-                    <td>Spanien</td>
-                    <td>Barcelona</td>
-                    <td>3575 DKK</td>
-                </tr>
-                <tr>
-                    <th scope="row">1/6-22</th>
-                    <td>Japan</td>
-                    <td>Tokyo</td>
-                    <td>9500 DKK</td>
-                </tr>
-                <tr>
-                    <th scope="row">1/6-21</th>
-                    <td>USA</td>
-                    <td>New York</td>
-                    <td>7500 DKK</td>
-                </tr>
-            </tbody>
-        </table>
+
+    
+    
 
     </div>
 
