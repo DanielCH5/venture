@@ -136,11 +136,15 @@ body {
   background-color: $orange;
   display: grid;
   grid-template-columns: 1fr;
+  
 }
 @include media-breakpoint-up(md) {
   #footer {
     grid-template-columns: 4fr 4fr 4fr;
   }
+}
+.space{
+  height: 425px;
 }
 
 .row1{
