@@ -27,6 +27,7 @@ $theme-colors: (
 
 
 
+
 $nav-link-color: #{$orange};
 $nav-pills-link-active-color: #{$white};
 $nav-pills-link-active-bg: #{$orange};
@@ -45,7 +46,6 @@ $position-values: (
 $navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$orange}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 $navbar-dark-toggler-border-color: #{$orange};
 $card-height: 100%;
-$card-bg: $orange;
 
 
 
@@ -56,7 +56,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-
+.btn-primary{
+  color: white !important;
+}
 
 .landingphoto {
   opacity: 0.3;
