@@ -7,6 +7,7 @@ $link-decoration: none;
 
 
 
+
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
@@ -29,7 +30,7 @@ $theme-colors: (
 $nav-link-color: #{$orange};
 $nav-pills-link-active-color: #{$white};
 $nav-pills-link-active-bg: #{$orange};
-$nav-link-hover-color: #{$white};
+$nav-link-hover-color: #{$dark};
 $position-values: (
   0: 0,
   10: 10%,
@@ -42,7 +43,7 @@ $position-values: (
 
 
 $navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$orange}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
-$navbar-dark-toggler-border-color:  #{$orange};
+$navbar-dark-toggler-border-color: #{$orange};
 $card-height: 100%;
 $card-bg: $orange;
 
@@ -93,9 +94,33 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .aktiviteter {
   order: 6;
 }
-body{
-  background-color: $gray-900;
+
+body {
+  background-color: rgb(255, 255, 255);
 }
-#søgebar{
+
+#søgebar {
   background-color: $orange;
 }
+
+
+#kurv {
+  display: inline;
+}
+
+@include media-breakpoint-up(md) {
+  #kurv {
+    display: none;
+  }
+}
+
+#taske {
+  display: none;
+}
+
+@include media-breakpoint-up(md) {
+  #taske {
+    display: inline;
+  }
+}
+
