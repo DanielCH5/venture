@@ -106,25 +106,7 @@ body {
 }
 
 
-#kurv {
-  display: inline;
-}
 
-@include media-breakpoint-up(md) {
-  #kurv {
-    display: none;
-  }
-}
-
-#taske {
-  display: none;
-}
-
-@include media-breakpoint-up(md) {
-  #taske {
-    display: inline;
-  }
-}
 
 
 .planlagt-rejse{
