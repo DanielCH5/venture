@@ -140,3 +140,22 @@ body {
   color: whitesmoke;
   padding: 5px;
 }
+
+#kurv{
+  display: inline;
+}
+@include media-breakpoint-up(md){
+  #kurv{
+    display: none;
+  }
+}
+
+#taske{
+  display: none;
+}
+
+@include media-breakpoint-up(md){
+  #taske{
+    display: inline;
+  }
+}
