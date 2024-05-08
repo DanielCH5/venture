@@ -65,45 +65,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 }
 
-.rejseagent {
-  order: 1;
-}
-
-.fly {
-  order: 2;
-}
-
-.brand {
-  order: 4;
-
-}
-
-.hoteller {
-  order: 3;
-
-}
-
-.afbudsrejser {
-  order: 5;
-}
-
-.profil {
-  order: 7;
-}
-
-.aktiviteter {
-  order: 6;
-}
-
-body {
-  background-color: rgb(255, 255, 255);
-}
-
 #søgebar {
   background-color: $orange;
 }
 
 
+body {
+  background-color: rgb(255, 255, 255);
+}
 
 
 
