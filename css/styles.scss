@@ -119,6 +119,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   
+  
 }
 @include media-breakpoint-up(md) {
   #footer {
@@ -160,3 +161,10 @@ body {
   }
 }
 
+.loginphoto{
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.3;
+  height: 1200px;
+}
